@@ -7,7 +7,7 @@
 print("------------------")
 print(    "Tempature"     )
 print("------------------")
-tempature_degree=int(input("What is the Tempature in Fahrenheit?"))
+tempature_degree= float(input("What is the Tempature in Fahrenheit? "))
 print("Tempature: ",tempature_degree, "°F")
 if tempature_degree >= 80:
     print("Hot")
@@ -21,8 +21,10 @@ else:
 print("===============")
 print("Even or Odd")
 print("===============")
-Integer=int(input("Enter any whole number integer"))
-if 
-
+Integer=int(input("Enter any whole number integer. "))
+if Integer %2 == 0:
+    print("This number is even")
+else:
+    print("This number is odd")
 
 
